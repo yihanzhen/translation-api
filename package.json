@@ -1,0 +1,19 @@
+{
+  "name": "translation-api",
+  "version": "0.3.0",
+  "description": "A translation API using GCF",
+  "scripts": {
+    "test": "mocha",
+    "artifactregistry-login": "npx google-artifactregistry-auth"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@gcp-integ-nodejs/translation-app": "0.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.0",
+    "google-artifactregistry-auth": "2.1.1"
+  },
+  "author": "hzyi@google.com",
+  "license": "MIT"
+}
