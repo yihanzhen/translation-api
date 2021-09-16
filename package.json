@@ -4,7 +4,7 @@
   "description": "A translation API using GCF",
   "scripts": {
     "test": "mocha",
-    "artifactregistry-login": "npx google-artifactregistry-auth"
+    "artifactregistry-login": "npx google-artifactregistry-auth-private"
   },
   "main": "index.js",
   "dependencies": {
